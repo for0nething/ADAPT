@@ -1,0 +1,24 @@
+name: jax
+channels:
+  - defaults
+dependencies:
+  - pip
+  - python=3.10
+  - pip:
+      - jax==0.3.25
+      - distrax==0.1.3
+      - numpy==1.22.4
+      - flax==0.6.1
+      - optax==0.1.5
+      - chex==0.1.6
+      - scikit-learn==1.2.2
+      - scipy==1.11.1
+      - fedjax==0.0.16
+      - dp-accounting
+      - optuna
+      - pandas
+      - torch
+      - tqdm
+      - seaborn
+
+prefix: /home/jiayi/anaconda3/envs/jax
