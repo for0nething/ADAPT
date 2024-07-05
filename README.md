@@ -92,20 +92,20 @@ We also include a set of baselines within our proposed federated data analytics 
 
 
 - **FedMA:**
-  - We used the official source code at [link](https://github.com/IBM/FedMA). The NF model with the same hyperparameters as ADAPT is trained and then used for evaluation.
+  - We used the official source [code](https://github.com/IBM/FedMA). The NF model with the same hyperparameters as ADAPT is trained and then used for evaluation.
 - **GAMF:**
-  - We used the official source code at [link](https://github.com/Thinklab-SJTU/GAMF). The NF model with the same hyperparameters as ADAPT is trained and then used for evaluation.
+  - We used the official source [code](https://github.com/Thinklab-SJTU/GAMF). The NF model with the same hyperparameters as ADAPT is trained and then used for evaluation.
 
 
 
 - **DPSQL:**
-  - We used the official source code at  [link](https://github.com/google/differential-privacy). It protects data privacy by adding noise to query results. A privacy budget is evenly allocated across all queries.
+  - We used the official source [code](https://github.com/google/differential-privacy). It protects data privacy by adding noise to query results. A privacy budget is evenly allocated across all queries.
 - **FLEX:**
-  - We used the official source code at  [link](https://github.com/uber-archive/sql-differential-privacy). It is also a method based on output-perturbation. We assign the same privacy budgets as DPSQL to each query.
+  - We used the official source [code](https://github.com/uber-archive/sql-differential-privacy). It is also a method based on output-perturbation. We assign the same privacy budgets as DPSQL to each query.
 - **PrivMRF:**
-  - We used the official source code at  [link](https://github.com/caicre/PrivMRF). The synthesized data with the same size as the original data is generated under the same $(\epsilon, \delta)$-DP guarantee using the MRF model. Then the query is executed on the synthesized data.
+  - We used the official source [code](https://github.com/caicre/PrivMRF). The synthesized data with the same size as the original data is generated under the same $(\epsilon, \delta)$-DP guarantee using the MRF model. Then the query is executed on the synthesized data.
 - **DP-WGAN:**
-  - We used the official source code at  [link](https://github.com/nesl/nist_differential_privacy_synthetic_data_challenge). The synthesized data with the same size as the original data is generated under the same $(\epsilon, \delta)$-DP guarantee using the WGAN model. Then the query is executed on the synthesized data.
+  - We used the official source [code](https://github.com/nesl/nist_differential_privacy_synthetic_data_challenge). The synthesized data with the same size as the original data is generated under the same $(\epsilon, \delta)$-DP guarantee using the WGAN model. Then the query is executed on the synthesized data.
 
 
 
