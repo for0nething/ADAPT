@@ -52,7 +52,7 @@ The real-world datasets can be downloaded from [link](https://drive.google.com/d
 ## Detailed Parameter Description
 
 ### Train
-Before training using `train_ADAPT.py`, make sure the experiment parameters are set correctly. The main experimental parameters include:
+Before training using [`train_ADAPT.py`](train_ADAPT.py), make sure the experiment parameters are set correctly. The main experimental parameters include:
 - **Parameters:**
   - **dataset_name:** Dataset to use. The available datasets include `power`, `BJAQ`, `imdbfull`, and `flights`.
   - **model_name:** The network structure to use. `RQSpline` denotes the NF model with complete fully connected layers. `MaskRQSpline` denotes the NF model with structural different neurons proposed in the paper. 
@@ -72,7 +72,7 @@ Before training using `train_ADAPT.py`, make sure the experiment parameters are 
 
 
 ### Evaluate
-Before evaluation using `evaluate.py`, make sure the experiment parameters are set correctly. For evaluation, these parameters are set in [`parameterSetting.py`](evaluate/parameterSetting.py).The main experimental parameters include:
+Before evaluation using [`evaluate.py`](evaluate/evaluate.py), make sure the experiment parameters are set correctly. For evaluation, these parameters are set in [`parameterSetting.py`](evaluate/parameterSetting.py).The main experimental parameters include:
 - **Parameters:**
   - **dataset_name:** Dataset to use. The available datasets include `power`, `BJAQ`, `imdbfull`, and `flights`.
   - **numQuery:** Number of queries for evaluation.
